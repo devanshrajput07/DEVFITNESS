@@ -1,0 +1,238 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('img/BG.jpeg') no-repeat center;
+    background-size: cover;
+    height: 105vh;
+    width: 100%;
+    font-family: "moon extra bold", Sans-serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 10px;
+}
+
+.left img {
+    width: 130px;
+    height: 60px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 18px;
+    line-height: 12px;
+}
+
+.mid {
+    font-family: 'Baloo Bhai', cursive;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 0;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: #FFEB3B;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: cornsilk;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 25px 9px;
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.container {
+    border: 2px solid #e5648fbf;
+    margin: 100px 50px;
+    padding: 30px;
+    width: 20%;
+    border-radius: 28px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+#why-us {
+    display: flex;
+    margin-top: 37vh;
+    width: 100%;
+    height: 80vh;
+    background: url(img/joinbg.png) no-repeat;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #221551;
+    scroll-margin: 50px;
+}
+
+.right-side img {
+    width: 650px;
+    height: 450px;
+    border-radius: 25px;
+}
+
+.content h1 {
+    font-size: 2.2rem;
+}
+
+.content p {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+#gym-tour {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    width: 100%;
+    height: 100vh;
+    background: url(img/tourbg.png) no-repeat;
+    gap: 50px;
+    color: #221551;
+    align-items: center;
+}
+
+.content2 h1 {
+    font-size: 2.2rem;
+}
+
+.content2 p {
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.eqpmnt {
+    display: flex;
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.eqpmnt img {
+    padding: 15px;
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+#membersection{
+    display: flex;
+    flex-direction: column;
+    margin-top: -2vh;
+    width: 100%;
+    height: 70vh;
+    color: #221551;
+    align-items: center;
+    background: url(img/memberbg.png);
+}
+
+#membersection h1{
+font-size: 2.5rem;
+}
+.reviewsection{
+    display: flex;
+    text-align: center;
+}
+
+.reviewsection p{
+    font-size: 1rem;
+    color: #000;
+}
+.reviewsection h4{
+    font-size: 1.5rem;
+}
+.review{
+    display: flex;
+    margin: 0px 35px;
+    padding: 20px;
+    border-radius: 28px;
+    gap: 30px;
+}
+
+.review1,.review2,.review3,.review4{
+    border: 2px solid #e5648fbf;
+}
+
+/* Contact Section  */
+#contact{
+    display: flex;
+    flex-direction: column;
+    color: #221551;
+    font-size: 2rem;
+    padding: 5px;
+    }
+    
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+    }
+    #contact-box input, 
+    #contact-box textarea{
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+    } 
+    #contact-box form{
+        width: 40%;
+    }
+    #contact-box label{
+        font-size: 1.3rem;
+        font-family: 'Bree Serif', serif;
+     
+     }
+    
+    #contact::before{
+        content: "";
+        position: absolute;
+        background: url(img/contactbg.jpg) no-repeat center/cover ;
+        height: 100vh;
+        width:100%;
+        z-index: -1;
+        opacity: 0.9;
+    }
+    
